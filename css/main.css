@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* 슬로건 */
+#slider { height: 363px; text-align: center; position: relative;
+      background: url(../images/bgslider.jpg) no-repeat center / cover;
+     }
+#slider::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 363px;
+              background: rgba(0, 0, 0, 0.5); }
+#slider p { position: relative; padding: 70px 0 30px; text-transform: uppercase; color: #ffffff; text-shadow: 0 2px 2px #000;
+            font-weight: bold; font-size: 50px;}
+#slider a { position: relative; display: block; width: 150px; height: 40px;
+            margin: 0 auto; line-height: 40px;
+             background: #e4464c; color: #fff; }
+#slider a:hover { background: #fffc00; color:#000; }
+/* 솔루션 */
+#solutionWrap { background: #ebebeb; }
+#solution { width: 930px; margin: 0 auto; padding: 83px 30px 50px; overflow: hidden; }
+#solution .solution { width: 310px; background: url(../images/bgSolution.png) no-repeat; float: left; }
+#solution .hosting { background-position-x: 0; }
+#solution .security { background-position-x: -310px; }
+#solution .payment { background-position-x: -620px; }
+#solution .solution a { padding: 0 34px 0 100px; display: block; color: #333; }
+#solution .solution a h3 { font-size: 16px; }
+#solution .solution a p {  font-size: 14px; }
+
+/* 보드 */
+#board { width: 1000px; margin: 32px auto 0; overflow: hidden; }
+#board > section { width: 420px; float: left; }
+#board > section >h3 { height: 21px; text-indent: 25px;
+                    font-weight: normal; font-size: 14px;
+                    background: url(../images/bgBoard.png) no-repeat; }
+#sec_news { margin: 0 80px 0 40px; }
+#sec_news h3 { font-style: italic; margin-bottom: 18px; }
+#sec_news h3 span { color: #ff5d03; }
+#sec_news a { color: #333; }
+#sec_news a dl { margin: 0 0 10px 5px; }
+#sec_news a dl dt { font-famuly: "Times New Roman"; color: #ff0000; }
+#sec_news a dl dd { line-height: 16px; }
+
+/* news notice */
+/* 위띄우기 22px
+라인하이트 26px */
+#notice { }
+#notice h3 { font-style: italic; color: #e0b419; }
+#notice ul { margin: 22px 0; }
+#notice ul li { height: 26px; line-height: 26px; border-bottom: 1px dotted #0085ff; margin-right: 20px; font-size: 14px;
+background: url(../images/bulletNotice.gif) no-repeat 0 center; text-indent: 15px; padding-right: 10px;
+}
+#notice ul li a { float: left; color: #333; }
+#notice ul li span { float: right; }
+#notice ul li span::after { }
